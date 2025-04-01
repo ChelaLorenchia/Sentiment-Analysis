@@ -1,0 +1,8 @@
+flask
+torch
+torchvision
+pandas
+sklearn
+tensorflow
+nltk
+pickle5
