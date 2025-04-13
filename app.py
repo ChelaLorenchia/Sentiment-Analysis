@@ -1,31 +1,50 @@
-from flask import Flask, render_template, request
+from flask import Flask, request, render_template
 import pickle
-import numpy as np
+import os
 
 app = Flask(__name__)
 
-# Load model dan TF-IDF vectorizer
+# Load model dan vectorizer
 with open('model/naive_bayes_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 with open('model/tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
-# Prediksi sentimen berdasarkan input
-def predict_sentiment(text):
-    text_tfidf = vectorizer.transform([text])
-    prediction = model.predict(text_tfidf)
-    sentiment = ["Negative", "Neutral", "Positive"]
-    return sentiment[prediction[0]]
+# Mapping label (ubah sesuai hasil LabelEncoder)
+label_map = {
+    0: "Negative",
+    1: "Neutral",
+    2: "Positive"
+}
 
-# Route untuk halaman utama
-@app.route("/", methods=["GET", "POST"])
+@app.route('/', methods=['GET', 'POST'])
 def index():
     sentiment = None
-    if request.method == "POST":
-        comment = request.form["comment"]
-        sentiment = predict_sentiment(comment)
-    return render_template("index.html", sentiment=sentiment)
+    prob = None
+    text = ''
+    
+    if request.method == 'POST':
+        text = request.form.get('comment', '').strip()
+        print("Komentar:", text)  # Debug
 
-if __name__ == "__main__":
+        if text:
+            try:
+                transformed = vectorizer.transform([text])
+                prediction = model.predict(transformed)[0]
+                prediction_prob = model.predict_proba(transformed).max()
+
+                sentiment = label_map.get(prediction, "Tidak Diketahui")
+                prob = f"{prediction_prob:.2f}"
+            except Exception as e:
+                print("Error saat prediksi:", e)
+                sentiment = "Terjadi kesalahan"
+                prob = "-"
+        else:
+            sentiment = "Komentar kosong"
+            prob = "-"
+    
+    return render_template('index.html', text=text, sentiment=sentiment, prob=prob)
+
+if __name__ == '__main__':
     app.run(debug=True)
