@@ -1,50 +1,50 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, jsonify, render_template
+
+import torch
 import pickle
-import os
+from torch.nn.functional import softmax
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from train import LSTMSentiment, MAX_WORDS, MAX_LEN
 
 app = Flask(__name__)
 
-# Load model dan vectorizer
-with open('model/naive_bayes_model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+# Load model
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = LSTMSentiment(MAX_WORDS, 100, 128, 3).to(device)
+model.load_state_dict(torch.load("model/model.pth", map_location=device))
+model.eval()
 
-with open('model/tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
-    vectorizer = pickle.load(vectorizer_file)
+# Load tokenizer
+with open("model/tokenizer.pkl", "rb") as f:
+    tokenizer = pickle.load(f)
 
-# Mapping label (ubah sesuai hasil LabelEncoder)
-label_map = {
-    0: "Negative",
-    1: "Neutral",
-    2: "Positive"
-}
+def predict_sentiment(text):
+    sequence = tokenizer.texts_to_sequences([text])
+    padded = pad_sequences(sequence, maxlen=MAX_LEN)
+    tensor = torch.tensor(padded, dtype=torch.long).to(device)
 
-@app.route('/', methods=['GET', 'POST'])
+    with torch.no_grad():
+        output = model(tensor)
+        probabilities = softmax(output, dim=-1)
+        prediction = torch.argmax(probabilities, dim=-1).item()
+
+    label_map = {0: "Negative", 1: "Neutral", 2: "Positive"}
+    return label_map[prediction], probabilities.tolist()
+
+@app.route("/", methods=["GET", "POST"])
 def index():
-    sentiment = None
-    prob = None
-    text = ''
-    
-    if request.method == 'POST':
-        text = request.form.get('comment', '').strip()
-        print("Komentar:", text)  # Debug
+    if request.method == "POST":
+        text = request.form["comment"]
+        sentiment, prob = predict_sentiment(text)
+        return render_template("index.html", text=text, sentiment=sentiment, prob=prob)
+    return render_template("index.html")
 
-        if text:
-            try:
-                transformed = vectorizer.transform([text])
-                prediction = model.predict(transformed)[0]
-                prediction_prob = model.predict_proba(transformed).max()
+@app.route("/api/predict", methods=["POST"])
+def api_predict():
+    data = request.get_json()
+    text = data.get("text", "")
+    sentiment, prob = predict_sentiment(text)
+    return jsonify({"text": text, "sentiment": sentiment, "probabilities": prob})
 
-                sentiment = label_map.get(prediction, "Tidak Diketahui")
-                prob = f"{prediction_prob:.2f}"
-            except Exception as e:
-                print("Error saat prediksi:", e)
-                sentiment = "Terjadi kesalahan"
-                prob = "-"
-        else:
-            sentiment = "Komentar kosong"
-            prob = "-"
-    
-    return render_template('index.html', text=text, sentiment=sentiment, prob=prob)
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
