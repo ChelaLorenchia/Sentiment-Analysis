@@ -12,7 +12,7 @@ Id,Comment,Label,Cleaned_Comment,Label_Encoded
 11,"halah, kok gue curiga sengaja d bikin menang . krn klo kalah, dia d tuntut d pecat",Negative,halah kok curiga sengaja d bikin menang kalau kalah d tuntut d pecat,0
 12,"Yaiyalah federasi backing, mereka kan harus mempertahankan gengsi sama keputusan yg mereka buat. Strateginya salah tetep bakal dicebok kok biar ga malu",Negative,yaiyalah federasi backing kan tahan gengsi sama putus buat strategi salah tetap bakal cebok kok biar malu,0
 13,Jangan eksperimen2 di laga penting lagi pak petrik.,Negative,jangan eksperimen laga penting pak trik,0
-14,"suami kerja di Sampoerna kayu, Alhamdulillah gajian telat Bae..... saking telat nya 1 bulan terlewatkan gitu aja tanpa di bayar",Negative,suami kerja sampoerna kayu alhamdulillah gaji telat baik saking telat nya bulan lewat di bayar,0
+14,"suami kerja di Sampoerna kayu, Alhamdulillah gajian telat Bae..... saking telat nya 1 bulan terlewatkan gitu aja tanpa di bayar",Negative,suami kerja sampoerna kayu alhamdulillah gaji telat baik saking telat nya bulan lewat tanpa bayar,0
 15,"dengan benefit seperti itu, jangan harap work life balance gaes.",Negative,benefit itu jangan harap work life balance gaes,0
 16,"oylah laki gue di Sampoerna kerjanya bukan 24jam lg wkwk, sampe erorrr itu jam x😭",Negative,oylah laki di sampoerna kerja bukan jam wkwk erorrr jam x,0
 17,tau kan artinya benefit gede😌 bisa bisa seluruh hidup mu cuma tentang perusahaan😂😂😂,Negative,tahu kan arti benefit gede bisa seluruh hidup mu cuma usaha,0
@@ -27,7 +27,7 @@ Id,Comment,Label,Cleaned_Comment,Label_Encoded
 26,FOTO LAMA ? GA ADA DUIT LAGI KAH BUAT PURA PURA TERLIHAT KAYA,Negative,foto lama ada duit kah buat pura pura lihat kaya,0
 27,Semakin yakin untuk korupsi,Negative,makin yakin korupsi,0
 28,sesuai sih muka sama kelakuan. ☺,Negative,sesuai sih muka sama laku,0
-29,eh bang? yang ganteng aja gak gitu loh 🙏,Negative,eh bang ganteng begitu loh,0
+29,eh bang? yang ganteng aja gak gitu loh 🙏,Negative,eh bang ganteng tidak loh,0
 30,Beli 1 ice cream kek beli saham 😩,Negative,beli ice cream kek beli saham,0
 31,"Pentingnya nafkah pake duit halal si bang intinya, klo ga mau punya anak model gini",Negative,penting nafkah pakai duit halal si bang inti kalau mau punya anak model gin,0
 32,Ketika Supir ALS pacaran ama LC,Negative,supir als pacar sama lc,0
@@ -219,7 +219,7 @@ Id,Comment,Label,Cleaned_Comment,Label_Encoded
 ",Positive,aura emas kuat sangat,2
 211,"Aura kaya nya kuat banget 😢😂
 ",Positive,aura kaya nya kuat sekali,2
-212,"Kalah glamour Bu Titik Soeharto. Cuma perhiasannya aja yg emas, lah emak2 ini sak baju2nya dan hijabnya emas semua, menyala si emak 🔥🔥😂😂",Positive,kalah glamour bu titik soeharto cuma hias emas lah emak sak baju hijab emas semua nyala si emak,2
+212,"Kalah glamour Bu Titik Soeharto. Cuma perhiasannya aja yg emas, lah emak2 ini sak baju2nya dan hijabnya emas semua, menyala si emak 🔥🔥😂😂",Positive,kalah glamour bu titik soeharto cuma hias yang emas lah emak sak baju hijab emas semua nyala si emak,2
 213,Suka heran gw sma yg traktir orang tp nyiksa kek gini. Tujuan nya apaan duh lagian mie gacoan kan harga nya gak sbrapa ngapain jg nyiksa diri sndiri. Klo mau traktir ya yg wajar2 aja klo udh diare atau smpe knp2 emang tmn nya mo tnggung jwab itu? 😔😔😔,Positive,suka heran sma traktir orang siksa kek gin tuju nya apa duh mie gaco kan harga nya sbrapa ngapain siksa diri sendiri kalau mau traktir yang wajar kalau diare sampai memang teman nya mau tnggung jwab,2
 214,"tim yg ngga level levelan, biar bisa dinikmati",Positive,tim level level biar nikmat,2
 215,Gaboleh sok pamer level 9 harusnya level 2-3 lebih baik aja jaga kesehatan lambung,Positive,boleh sok pamer level harus level lebih baik jaga sehat lambung,2
@@ -257,10 +257,10 @@ Id,Comment,Label,Cleaned_Comment,Label_Encoded
 247,"Life is goes on kak, tetep semangat, jangan terlalu memikirkan perkataan orang lain kak hidup cuma sekali, intinya enjoy your life kak!",Positive,life is goes on kak tetap semangat jangan terlalu pikir kata orang kak hidup cuma sekali inti enjoy your life kak,2
 248,ka coba ganti cat rambut yg warna red wine pasti kakaknya cantik bgt,Positive,ka coba ganti cat rambut warna red wine kakak cantik sangat,2
 249,dah bagus sekali ini banyak perubahan banget suka dej,Positive,bagus sekali banyak ubah sekali suka dej,2
-250,"vior ga kosong, cuman lemot aja ga sih",Positive,vior kosong lot sih,2
+250,"vior ga kosong, cuman lemot aja ga sih",Positive,vior kosong lot tidak sih,2
 251,Lagien alumni sekolah penabur..pasti ada lah sisi pinternya..,Positive,lagien alumni sekolah penaburpasti lah sisi pinternya,2
 252,ternyata yg kosong itu bukan vior. tapi gw 😂,Positive,nyata kosong bukan vior saya,2
-253,kemampuan vior yg bsa di sombongin yah itu pinter matematika dia itu Pinter bukan kosong cuma tata bahasanya aja yg agak ngelag dikit,Positive,mampu vior di sombongin yah pintar matematika itu pintar bukan kosong cuma tata bahasa ngelag sedikit,2
+253,kemampuan vior yg bsa di sombongin yah itu pinter matematika dia itu Pinter bukan kosong cuma tata bahasanya aja yg agak ngelag dikit,Positive,mampu vior di sombongin yah pintar matematika itu pintar bukan kosong cuma tata bahasa yang ngelag sedikit,2
 254,udah minta maaf gk usah di hujat,Positive,minta maaf usah hujat,2
 255,"itu lah resikonya sosmed, sekarang dekatin diri k Tuhan lepasin semua doa sesuai keyakinan mu brsihkan dri pokoknya mikir posif aja",Positive,lah resiko sosmed sekarang dekatin diri k tuhan lepasin semua doa sesuai yakin mu brsihkan pokok mikir posif,2
 256,PICK ME yng pink,Negative,pick me pink,0
@@ -396,7 +396,7 @@ giliran treasure minta bagi punya gima,gima Langung jawab ""nonoo""😹",Negativ
 382,berapaan? ada dana? mau di tf ga,Positive,berapa dana mau tf,2
 383,he's so sweet :[ semoga kakak bisa beli masker oms yg banyak yaaa,Positive,hes so sweet moga kakak beli masker oms banyak yaaa,2
 384,"ehh sumpah saran, jangan naro di tempat yang tembus pandang trus kalo bisa taro tempat yang emang kamu doang yang tau, kalo emang ga ada tempat tertutup, bisa di taro di buku dan bukunya di umpetindeh",Positive,ehh sumpah saran jangan naro tempat tembus pandang terus kalau taro tempat memang kamu tahu kalau memang ada tempat tutup taro buku buku di umpetindeh,2
-385,"sedih BANGETTT sama Kakanya🙂,semoga kebeli masker oms nya yaa KAK,gini aja aku sedih🙂, semangatt kakk",Positive,sedih bangettt sama kakanyasemoga kebel masker oms nya yaa kakgini sedih semangatt kakk,2
+385,"sedih BANGETTT sama Kakanya🙂,semoga kebeli masker oms nya yaa KAK,gini aja aku sedih🙂, semangatt kakk",Positive,sedih bangettt sama kakanyasemoga kebel masker oms nya yaa kakgini saya sedih semangatt kakk,2
 386,muka nya lucu ih,Positive,muka nya lucu ih,2
 387,"semangat kaaa,masker oh my skin menunggu muu",Positive,semangat kaaamasker my skin tunggu muu,2
 388,cara ngomong nya udah mau nangis ituu :(😭,Positive,cara bicara nya mau nang,2
@@ -595,16 +595,16 @@ giliran treasure minta bagi punya gima,gima Langung jawab ""nonoo""😹",Negativ
 581,cewek yg baju pink tipe temen yg membosankan,Negative,cewek baju pink tipe teman bosan,0
 582,codeblu sama gastronusa sama2 problematik sih. btw five monkeys emang biasa aja. rasa mcd harga diatasnya,Negative,codeblu sama gastronusa sama problematik sih btw five monkeys memang biasa rasa mcd harga atas,0
 583,mereka pada knp si padahal ganteng loh mereka,Negative,pada si padahal ganteng loh,0
-584,aku yang kadang dapet orderan 5bungkus diwaktu bersamaan aja udah deg² an nerfeus tiba² kebelet pisis tiba² kebelet berak dan lain sebagainya,Neutral,yang kadang order bungkus waktu sama deg an nerfeus tiba kebelet pis tiba kebelet berak lain bagai,1
+584,aku yang kadang dapet orderan 5bungkus diwaktu bersamaan aja udah deg² an nerfeus tiba² kebelet pisis tiba² kebelet berak dan lain sebagainya,Neutral,yang kadang order bungkus waktu sama sudah deg an nerfeus tiba kebelet pis tiba kebelet berak lain bagai,1
 585,tahan dulu ketawa nya anj😭🫵🏻,Neutral,tahan dulu tertawa nya anj,1
-586,"Dek percaya deh kalo udah besar, jadi apa aja yang penting kerja ",Neutral,dek percaya deh kalau besar jadi apa penting kerja,1
+586,"Dek percaya deh kalo udah besar, jadi apa aja yang penting kerja ",Neutral,dek percaya deh kalau besar jadi apa yang penting kerja,1
 587,bisa ae abgnye pilih yg cantik😭,Neutral,ae abgnye pilih cantik,1
 588,salting brutal cowoknya,Neutral,salah tingkah brutal cowok,1
 589,Enakkkkk cuma pricy tapi nagih memang,Neutral,enakkkkk cuma pricy nagih memang,1
 590,murah bgt seabrek 16rb😭,Neutral,murah sangat abrek ribu,1
 591,anak kedua mah emg gitu bangg😭😭😭,Neutral,anak dua mah memang bangg,1
 592,berasa di kasih tips,Neutral,asa kasih tips,1
-593,"bukan nolak,tapi kaya ga enak aja di beliin yang baru😅",Neutral,bukan nolaktapi kaya enak beliin baru,1
+593,"bukan nolak,tapi kaya ga enak aja di beliin yang baru😅",Neutral,bukan nolaktapi kaya enak di beliin baru,1
 594,TAPI JUJUR BAGUS,Positive,jujur bagus,2
 595,"LUCU BANGETT, MAU IKUTANN CERITAA",Positive,lucu sangat mau ikutann ceritaa,2
 596,seru banget ih advicenya bener bener sesuai logika gue wkwkwkkw 🥰🥰🥰,Positive,seru sekali ih advicenya benar benar sesuai logika wkwkwkkw,2
@@ -615,3 +615,66 @@ giliran treasure minta bagi punya gima,gima Langung jawab ""nonoo""😹",Negativ
 601,"salut, owner ma crewnya perempuan strong, mantab",Positive,salut owner ma crewnya perempuan strong mantab,2
 602,yg jd KULI 😔 mgkin si adek sadar diri kalo ortunya kurang mampu jadi gk muluk2 cita2 nya semoga kelak dewasa bs melebihi kuli ya dek arsitek mgkin 😊,Positive,jadi kuli mgkin si adik sadar diri kalau ortunya kurang mampu jadi muluk cita nya moga kelak dewasa lebih kuli dek arsitek mgkin,2
 603,kereeenn..aku kasih skor 1000..semangat terus nura,Positive,kereeennaku kasih skor semangat terus nura,2
+604,gua sampe lupa wajah asli ibnu🗿,Neutral,lupa wajah asli ibnu,1
+605,gaada orang sempurna,Neutral,ada orang sempurna,1
+606,"Kalau mau ketawa, ketawa aja mba…",Neutral,kalau mau tertawa tertawa mba,1
+607,spill voice overnyaaaa pakai AI apa,Neutral,spill voice overnyaaaa pakai ai apa,1
+608,pening pala gw liat kamera ny,Neutral,pening pala liat kamera ny,1
+609,"klo lagi sendiri gini gacor banget, pas jadi MC planga plongo😁, napa sih lo",Neutral,kalau sendiri gin gacor sekali pas jadi mc planga plongo sih kamu,1
+610,suruh nyeritain pengalaman 🤣malah HRD nya suruh liat aja di CV,Neutral,suruh nyeritain alam malah hrd nya suruh liat di cv,1
+611,emg kitanya lg stress aja ga sih 😭😭😭,Neutral,memang kita stress tidak sih,1
+612,jodinn bagi playlist spotify mu pliss,Neutral,jodinn playlist spotify mu pliss,1
+613,Duh tipe gw bgd ni,Neutral,duh tipe sangat,1
+614,Dia tau gasi kalo itu KW?,Neutral,tahu gas kalau kamu,1
+615,"muka serius , pembicaraan misterius😭😭😭",Neutral,muka serius bicara misterius,1
+616,kagak sakit cuman kaget aja 🤣,Neutral,sakit kaget,1
+617,"makan bakso kuahnya dipisah😭, sekte mana lagi itu",Neutral,makan bakso kuah pisah sekte mana itu,1
+618,kak bakso omen bukan?,Neutral,kak bakso omen bukan,1
+619,beli di mana ci baso nya,Neutral,beli mana ci bakso nya,1
+620,suaranya sopan bgt msk tlinga,Positive,suara sopan sangat masuk tlinga,2
+621,ini mahh estetik parahhh✨,Positive,mahh estetik parahhh,2
+622,Lucuuu bgt editannya🥺,Positive,lucuuu sangat edit,2
+623,"HAHAHAH SAMA BGTT, kalo aku dulu nunggu disuruh pulang sama mas/mba nyaa baru aku pulang",Positive,hahahah sama bgtt kalau dulu nunggu suruh pulang sama masmba nyaa baru pulang,2
+624,pizza 1 meter jadi kyk papan congklak di tangan mereka 😂,Positive,pizza meter jadi kayak papan congklak tangan,2
+625,IIIII SERUUUUUNYA🤩,Positive,iiiii seruuuuunya,2
+626,"ini namanya kreator yg Terima kritikan,berarti tetehnya masih punya hati luv sekebon pokoknya mah",Positive,nama kreator terima kritikanberarti teteh punya hati cinta kebon pokok mah,2
+627,"tapii kerenn sihh mauu merasa dan bisa intropeksi diri,soalnya jarang2 creator yg kaya gini. but apapun itu semangat trss ya kak",Positive,tapi kerenn sihh mauu rasa bisa intropeksi dirisoalnya jarang creator kaya gin but apa semangat trss kak,2
+628,lucuw banget persahabatan inii,Positive,lucuw sekali sahabat ini,2
+629,"kayak lagi nonton filmm, positive vibes bgt🥹🥹🥹",Positive,mirip nonton filmm positive vibes sangat,2
+630,"kakkk, kmu ngingetin akuu sm temenkuu tpi skrng kitaa ud asing :( btww kamuu positif vibes sekalii sukakkk💗",Positive,kakkk kamu ingat akuu sama temenkuu sekarang kitaa asing btww kamuu positif vibes sekali sukakkk,2
+631,"stay strong mas, kamu msh muda & pasti lbh kreatif, pasti nanti ada rejeki, yg penting skrg jaga kesehatan & tetap semangat yaa",Positive,stay strong mas kamu muda lebih kreatif nanti rejeki penting sekarang jaga sehat tetap semangat yaa,2
+632,"ikut seneng kak sadam!!! berbahagia terus ya, jodoh gak akan kemana kak.",Positive,ikut senang kak sadam bahagia terus jodoh akan kak,2
+633,"UPLOAD TERUS PLIS, suka bgt sm vlognya!",Positive,upload terus suka sangat sama vlognya,2
+634,Enak ya klw banyak uang bisa bagi2🥺 smga nular rezekinya🤲🏻,Positive,enak kalau banyak uang bagi moga nular rezeki,2
+635,"Berbagi itu menyenangkan bgt tau guys, walaupun cuma bisa berbagi dikit tp aku happy bgt klo udah bisa bikin org senyum. Konsep berbagi gak harus banyak ya, sesuai kemampuan",Positive,bagi senang sangat tahu guys walaupun cuma bagi sedikit saya happy sangat kalau bisa bikin orang senyum konsep bagi harus banyak sesuai mampu,2
+636,"modal muka doang, isinya kosong bingits 🤷",Negative,modal muka isi kosong bingits,0
+637,bole kali ngaca dlu sblm upload 🙄,Negative,kali ngaca dulu upload,0
+638,Too much ga si kalo kayak gini,Negative,too much si kalau mirip gin,0
+639,"BANYAK YNG NYALAHIN HRD , FIX SEKOLAH CUMAN PEGANG PENSIL AJA",Negative,banyak nyalahin hrd fix sekolah pegang pensil,0
+640,"Mc yg laki hah heh hoh, harus dipancing yg mc cwe dulu",Negative,mc laki hah heh hoh pancing mc cewek dulu,0
+641,ini endorse guys jd diblg enk.. cb klo review sndr ditaro kecoak buat meres ato gk setidaknya gratisan,Negative,endorse guys jadi diblg enak coba kalau review sndr ditaro kecoak buat meres ato tidak gratis,0
+642,maaf muka dia agak kyk anak2 autis ga sih,Negative,maaf muka agak kayak anak autis sih,0
+643,bangga banget beli kw😭,Negative,bangga sekali beli kamu,0
+644,Jangan kasih panggung ke dia plis,Negative,jangan kasih panggung dia,0
+645,"pelayanannya lama banget waktu itu, nunggu nasi goreng doang 2 jam aowkwowk",Negative,layan lama sekali waktu nunggu nasi goreng jam aowkwowk,0
+646,"butuh review jujur, enak gak? emak gue ngajakin kesini mulu🥲",Negative,butuh review jujur enak emak ngajakin kesini terus,0
+647,"udah cape"" kerja biar bisa makan enak malah harus makan sayuran",Negative,capai kerja biar makan enak malah makan sayur,0
+648,sesama kosong saling membela🔥,Negative,sama kosong saling bela,0
+649,pemuja bansos penguasa sibuk2 jilat2…,Negative,puja bansos kuasa sibuk jilat,0
+650,ini bocah auranya ngajak gelud 🤣,Negative,bocah aura ajak gelud,0
+651,wakKKKakkakkkk iya kang. kosong banget. asal. bunyi doang,Negative,wakkkkakkakkkk iya kang kosong sekali asal bunyi,0
+652,harusnya udh ke spoiler dri foto profilnya. tp gua bloon😭😭😭🙏🏼,Neutral,harus ke spoiler foto profil saya bloon,1
+653,udah di pencarian nya yuk balik,Neutral,di cari nya yuk balik,1
+654,itu kan sarung kaki bunda,Neutral,kan sarung kaki bunda,1
+655,kenapa bayi tuh seneng banget duduk di muka😅,Neutral,bayi tuh senang sekali duduk muka,1
+656,Walid nak dewi boleh??❎ ibnu nak liat boleh????✅,Neutral,walid anak dewi ibnu anak liat,1
+657,"Gils, lo keren banget sih!🔥",Positive,gils kamu keren sekali sih,2
+658,"Gue speechless, hasilnya cakep abis 😍",Positive,speechless hasil cakap abis,2
+659,"suaranya adem bgt,, aslii",Positive,suara adem sangat asli,2
+660,"vibesnya positif bgtt, suka dehh",Positive,vibesnya positif bgtt suka dehh,2
+661,Gw sih yes! Keep it up! 🔥🔥,Positive,sih yes keep it up,2
+662,ngapain sih upload beginian? ga jelas 😑,Negative,ngapain sih upload begini jelas,0
+663,"Gayanya lebay, cringe overload 😵‍💫",Negative,gaya lebay cringe overload,0
+664,"Bikin konten mikir dulu napa, jgn asal gas 🙄",Negative,bikin konten mikir dulu jangan asal gas,0
+665,"niat sih ada, tapi hasilnya... meh 😬",Negative,niat sih tapi hasil meh,0
+666,"pede lo segede gaban, hasilnya ZONK",Negative,pede kamu gede gaban hasil zonk,0

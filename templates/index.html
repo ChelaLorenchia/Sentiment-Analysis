@@ -59,6 +59,24 @@
         textarea.style.height = "auto";
         textarea.style.height = textarea.scrollHeight + "px";
       }
+
+      function autoResize(textarea) {
+        textarea.style.height = "auto";
+        textarea.style.height = textarea.scrollHeight + "px";
+      }
+
+      // Submit form saat Enter ditekan di dalam textarea
+      document.addEventListener("DOMContentLoaded", function () {
+        const textarea = document.getElementById("comment");
+        const form = textarea.closest("form");
+
+        textarea.addEventListener("keydown", function (event) {
+          if (event.key === "Enter" && !event.shiftKey) {
+            event.preventDefault(); // Cegah baris baru
+            form.submit(); // Submit form
+          }
+        });
+      });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
